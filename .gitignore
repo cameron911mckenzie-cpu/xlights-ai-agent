@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Tests / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Native plugin builds
+ai_plugins/AIAutoSequencer/build/
+
+# Local artefacts
+*.log
+*.xsqz
